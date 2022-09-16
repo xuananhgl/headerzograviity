@@ -237,9 +237,9 @@ INSERT INTO `pours_i18n` (`id`, `locale`, `model`, `foreign_key`, `field`, `cont
 
 CREATE TABLE `pres` (
   `id` int(11) NOT NULL,
-  `title_pres` varchar(255) NOT NULL,
+  `title` varchar(255) NOT NULL,
   `logo` varchar(255) NOT NULL,
-  `about_pres` varchar(255) NOT NULL,
+  `about` varchar(255) NOT NULL,
   `author` varchar(255) NOT NULL,
   `dress` varchar(255) NOT NULL,
   `link` varchar(255) NOT NULL,
